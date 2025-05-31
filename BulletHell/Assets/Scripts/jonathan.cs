@@ -8,7 +8,7 @@ public class jonathan : MonoBehaviour
     [SerializeField] private float distanciaX = 1f;    // Alcance del zigzag en el eje X
 
     [Header("Disparo de Patrones")]
-    [SerializeField] public GameObject bulletPrefab;  // Prefab de la bala (debe tener su propio script/movimiento)
+    [SerializeField] public GameObject bulletPrefab;  // Prefab de la bala 
     [SerializeField] public float fireRate = 1f;      // Tiempo en segundos entre cada “volley” de disparo en el patrón
 
     private void Start()
